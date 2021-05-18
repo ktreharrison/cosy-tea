@@ -1,0 +1,197 @@
+
+
+body {
+    font-family: helvetica;
+    font-size: 22px;
+    background-color: #000;
+    opacity: 0.9;
+    color: seashell;
+    text-align: center;
+
+}
+
+/* Header sytle */
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    align-items: center
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav{   
+color: rgb(255, 245, 238);
+display: block;
+flex-grow: 1;
+font-family: Helvetica, sans-serif;
+height: 65.4545px;
+text-align: right;
+width: 703.764px;
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+ 
+img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+a {
+    color: seashell;
+    padding-right: 2px;
+} 
+
+/* Main content sytle */
+
+.main {
+    padding-top: 69px;
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+}
+
+#mission {
+    height: 700px;
+    background-image: url("../../resources/images/mission-background.webp");
+    padding-top: 70px;
+}
+
+#mission .content {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+}
+
+h2, h3, h4 {
+    margin: 0;
+    padding: 10px;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+}
+
+/* Store sytle section */
+
+#store {
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.item {
+    padding: 5px;
+}
+
+.item img {
+    height: 200px;
+    margin: 10px;
+    display: block;
+}
+
+.item span {
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#locations {
+    background-image: url("../../resources/images/locations-background.webp");
+    height: 500px;
+    padding-top: 70px;
+    margin-top: 300px;
+}
+
+#locations .flex-container {
+    margin: auto;
+    width: 1100px;
+}
+
+.flex-container.locations {
+    padding-top: 5px;
+}
+
+.location {
+    opacity: 1.0;
+    padding: 10px;
+    margin: 5px 20px;
+    background-color: black;
+    flex-basis: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* Contact section */
+#contact {
+    height: 200px;
+}
+
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+/*Footer Section*/
+
+footer {
+    text-align: left;
+    padding-left: 20px;
+}
+
+div {
+    display: block;
+}
+
