@@ -1,7 +1,8 @@
 repo_name: ktreharrison/cosy-tea
-report_id: df6988b6027c0bb992656dfbc2da1e6a
+report_id: 9573144a10988d46fd24831995c19a31
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-14T09:27:43+00:00'
+timestamp: '2024-01-04T14:53:53+00:00'
 requested_by: ktreharrison
 provider: github
 branch: main
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/ktreharrison/cosy-tea
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -24,6 +26,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ktreharrison/cosy-tea
   detection_source: Repo Metadata
 - name: HTML
   description: Hypertext Markup Language for creating web pages.
@@ -31,6 +34,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source_url: https://github.com/ktreharrison/cosy-tea/blob/main/error.html
   detection_source: error.html
   last_updated_by: Ken Harrison
   last_updated_on: 2021-05-18 13:49:48.000000000 Z
